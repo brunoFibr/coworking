@@ -1,0 +1,45 @@
+.backgroud {
+    background-color: rgba(171, 169, 167, 0.155);
+}
+
+.navbar {
+    background-color: rgb(171, 169, 167);
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.797);
+}
+
+.text-colored {
+    color: black;
+}
+
+.nav-segundo .nav-link.active,
+#fale-conosco button {
+    background-color: black;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: black;
+}
+
+.nav-segundo .nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 767px) {
+
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+.nav {
+    --bs-nav-link-hover-color: black;
+}
